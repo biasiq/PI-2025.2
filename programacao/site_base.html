@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poliedro - Gerador de Imagens</title>
+    <link rel="stylesheet" href="./css/sytle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Perfil</li>
+            <li>Editar</li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <h1>Gerador de Imagens</h1>
+            <p>Criador de Imagens Educativas</p>
+        </header>
+        <section>
+            <p>
+                <label for="materia">Escolha a matéria desejada: </label><br>
+                <select id="materia">
+                    <option value="fisica">Física</option>
+                    <option value="matematica">Matemática</option>
+                </select><br>
+            </p>
+            <p>
+                <label for="conteudo-fisica">Qual seria o conteúdo: </label><br>
+                <select id="conteudo-fisica">
+                    <option value="velocidade-media">Velocidade Média</option>
+                    <option value="termodinamica">Termodinamica</option>
+                    <option value="leis-de-newton">Leis de Newton</option>
+                    <option value="eletronica-basica">Eletronica básica</option>
+                    <option value="trabalho">Trabalho</option>
+                    <option value="eletromagnetismo">Eletromagnetismo</option>
+                    <option value="calorimetria">Calorimetria</option>
+                  </select><br>
+            </p>
+            <p>
+                  <label for="conteudo-matematica">Qual seria o conteúdo: </label><br>
+                  <select id="conteudo-matematica">
+                    <option value="geometria-analitica" selected>Geometria Analitica</option>
+                    <option value="probabilidade">Probabilidade</option>
+                    <option value="funçao-do-1ºgrau">Função do 1°grau</option>
+                    <option value="Funçao-do-2ºgrau">Função do 2°grau</option>
+                    <option value="volume-de-formas-geometricas">Volume de formas geométricas</option>
+                    <option value="graficos">Gráficos</option>
+                    <option value="matematica-financeira">Matemática Financeira</option>
+                  </select><br>
+            </p>
+            <p>
+                <label for="msg">Escreva os detalhes desejados na imagem:</label>
+            </p>
+            <p>
+                <textarea id="msg"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Gerar">
+            </p>
+        </section>
+        <aside>
+            <p>*colocar campo de imagem*</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados - 2025</p>
+    </footer>
+</body>
+</html>
