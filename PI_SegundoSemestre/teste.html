@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador De Imagens Poliedro</title>
+    <style>
+      #mensagem{
+      color: black;
+  }
+  /*#Selecionar{
+      text-align: center;
+  }*/
+  /*#Caixa{
+      text-align: center;
+  }*/
+  #Gerador{
+      text-align: center;
+      color: aqua;
+      padding: 1px black;
+  }
+    </style>
+  
+</head>
+
+<body>
+  
+    <h1 id="Gerador">Gerador de Imagens Poliedro</h1>
+    <h3 id="Selecionar">Selecionar pré requisitos:</h3>
+
+    <form action="#" method="post">
+        <label for="opcao">Selecione uma matéria:</label><br>
+        
+        <select id="opcao01" name="opcao01">
+          <option value="opcao1" selected>Física</option>
+          <option value="opcao2">Matemática</option>
+        </select><br><br>
+
+        <label for="opcao02">Qual seria o conteúdo:</label><br>
+        
+        <select id="opcao02" name="opcao02">
+          <option value="opcao1" selected>Velocidade Média</option>
+          <option value="opcao2">Termodinamica</option>
+          <option value="opcao3">Leis de Newton</option>
+          <option value="opcao4">Eletronica básica</option>
+          <option value="opcao5">Trabalho</option>
+          <option value="opcao6">Eletromagnetismo</option>
+          <option value="opcao7">Calorimetria</option>
+        </select><br><br>
+
+        <label for="opcao02">Qual seria o conteúdo:</label><br>
+
+        <select id="opcao02" name="opcao02">
+          <option value="opcao1" selected>Geometria Analitica</option>
+          <option value="opcao2">Probabilidade</option>
+          <option value="opcao3">Função do 1°grau</option>
+          <option value="opcao4">Função do 2°grau</option>
+          <option value="opcao5">Volume de formas geométricas</option>
+          <option value="opcao6">Gráficos</option>
+          <option value="opcao7">Matemática Financeira</option>
+        </select><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+
+    <h3 id="Caixa">Caixa de texto para a geração de imagem</h3>
+
+    <form action="#" method="post">
+        <label for="mensagem">Escreva os detalhes desejados:</label><br>
+        <input type="text" id="mensagem" name="mensagem" placeholder="Escreva aqui..."size="50" style="height: 30px font-size 16px;"><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+
+</body>
+</html>
